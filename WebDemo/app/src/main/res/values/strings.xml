@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebDemo</string>
+    <string name="enter_url">Enter URL, then click load</string>
+    <string name="btn_load">Load</string>
+</resources>

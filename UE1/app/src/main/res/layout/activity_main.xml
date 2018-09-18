@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_name"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calc_result"
+        android:textAlignment="center"
+        android:textSize="21sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0">
+
+        <!-- android:inputType="numberDecimal" -->
+        <EditText
+            android:id="@+id/et_input_one"
+            android:layout_width="match_parent"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:text="@string/input_empty"
+            android:textSize="21sp"
+            android:textAlignment="center"/>
+
+        <!-- android:inputType="numberDecimal" -->
+        <EditText
+            android:id="@+id/et_input_two"
+            android:layout_width="match_parent"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:text="@string/input_empty"
+            android:textSize="21sp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_calc"/>
+
+    <Button
+        android:id="@+id/btn_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_nav"/>
+
+    <SeekBar
+        android:id="@+id/sb_seek"
+        android:layout_width="match_parent"
+        android:max="100"
+        android:layout_height="50sp" />
+
+    <TextView
+        android:id="@+id/tv_seekoutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input_empty"
+        android:textAlignment="center"
+        android:textSize="21sp"/>
+</LinearLayout>

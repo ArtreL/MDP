@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MDP Homework 1</string>
+    <string name="my_name">Lukas Schiermayer</string>
+    <string name="btn_calc">Calculate</string>
+    <string name="btn_nav">Navigate</string>
+    <string name="calc_result">0</string>
+    <string name="input_empty">0</string>
+</resources>
